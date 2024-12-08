@@ -5,12 +5,11 @@
 2. [Ejercicios](#ejercicios)
    - [Ejercicio 1: Suma de las diagonales de una matriz](#ejercicio-1-suma-de-las-diagonales-de-una-matriz)
    - [Ejercicio 2: Rotación de una matriz 90°](#ejercicio-2-rotación-de-una-matriz-90)
-   - [Ejercicio 3: Suma del perímetro de una matriz](#ejercicio-3-suma-del-perímetro-de-una-matriz)
+   - [Ejercicio 3: Perímetro de la matriz](#ejercicio-3-perímetro-de-la-matriz)
    - [Ejercicio 4: Transpuesta de una matriz](#ejercicio-4-transpuesta-de-una-matriz)
    - [Ejercicio 5: Verificar simetría de una matriz](#ejercicio-5-verificar-simetría-de-una-matriz)
-   - [Ejercicio 6: Recorrer una matriz en espiral](#ejercicio-6-recorrer-una-matriz-en-espiral)
-3. [Resultados](#resultados)
-4. [Conclusiones](#conclusiones)
+   - [Ejercicio 6: Recorrido en espiral de una matriz](#ejercicio-6-recorrido-en-espiral-de-una-matriz)
+3. [Conclusiones](#conclusiones)
 
 ---
 
@@ -35,7 +34,7 @@ public static void sumarDiagonales(int[][] matriz, int d) {
     System.out.println("Suma diagonal principal: " + sumaPrincipal);
     System.out.println("Suma diagonal secundaria: " + sumaSecundaria);
 }
-
+```
 ### Ejercicio 2: Rotación de una matriz 90°
 
 **Descripción:** Dada una matriz cuadrada m de dimensión d, escribe un algoritmo que permita rotar la matriz 90° en el sentido de las agujas del reloj.
@@ -137,4 +136,9 @@ public static List<Integer> recorrerMatrizEnEspiral(int[][] matriz) {
         return resultado;
 }
 ```
-
+## Conclusiones
+1. Los algoritmos implementados muestran una clara variabilidad en complejidad dependiendo del tamaño y las operaciones sobre la matriz.
+2. Algunos ejercicios, como la suma de diagonales y el recorrido en espiral, son ideales para introducir conceptos básicos sobre el manejo de índices en matrices.
+3. Los algoritmos de mayor complejidad, como la rotación de matriz o la verificación de simetría, demuestran la importancia de un diseño cuidadoso para evitar redundancias.
+4. La elección de estructuras adecuadas, como listas para el recorrido en espiral, facilita el manejo de datos dinámicos en aplicaciones avanzadas.
+5. Estos algoritmos pueden servir como base para problemas más complejos en disciplinas como visión por computadora, procesamiento de imágenes y análisis de datos en sistemas multidimensionales.
