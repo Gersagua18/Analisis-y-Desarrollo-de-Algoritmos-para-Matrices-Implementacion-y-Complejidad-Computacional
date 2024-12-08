@@ -142,3 +142,6 @@ public static List<Integer> recorrerMatrizEnEspiral(int[][] matriz) {
 3. Los algoritmos de mayor complejidad, como la rotación de matriz o la verificación de simetría, demuestran la importancia de un diseño cuidadoso para evitar redundancias.
 4. La elección de estructuras adecuadas, como listas para el recorrido en espiral, facilita el manejo de datos dinámicos en aplicaciones avanzadas.
 5. Estos algoritmos pueden servir como base para problemas más complejos en disciplinas como visión por computadora, procesamiento de imágenes y análisis de datos en sistemas multidimensionales.
+
+>[!NOTE]
+Para mas informacion de los algoritmos revisar su documentacion.
